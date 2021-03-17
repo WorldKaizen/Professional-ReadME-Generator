@@ -1,14 +1,37 @@
 {
-  "name": "static-site",
+  "name": "node-developer-profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js and ES6+ Homework: Developer Profile Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldKaizen/Node-Developer-Profile-Generator.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WorldKaizen/Node-Developer-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/WorldKaizen/Node-Developer-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "axios": "^0.19.0",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.0",
+    "phantom-html-to-pdf": "^0.6.0"
   }
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
