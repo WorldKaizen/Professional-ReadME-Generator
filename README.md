@@ -97,4 +97,4 @@ Run the following command at th root of your project and answer the prompted que
 :octocat: [WorldKaizen](https://github.com/jpd61)
 
 ## Questions
-✉️ Contact me with any questions: [email](mailto:s.shane67@yahoo.com) , [GitHub](https://github.com/jpd61)<br />
+✉️ Contact me with any questions: [email](mailto:s.shane67@yahoo.com) , [GitHub](https://github.com/WorldKaizen.com)<br />
