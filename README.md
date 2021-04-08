@@ -82,7 +82,8 @@ THEN I am taken to the corresponding section of the README
 💾   
   
 `npm init`
-  
+  npm jest
+  npm
 `npm install inquirer`
   
 ## Usage
