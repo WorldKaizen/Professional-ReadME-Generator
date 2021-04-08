@@ -9,43 +9,91 @@
 -Tests
 - Questions
 
-Node-Developer-Profile-Generator
-Node.js and ES6+ Homework: Developer Profile Generator
+<h1 align="center">README.md Generator Using Node.js 👋</h1>
+   
+  
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/jpd61/README-generator" />
+    <img src="https://img.shields.io/github/languages/top/jpd61/README-generator"  />
+    <img src="https://img.shields.io/github/issues/jpd61/README-generator" />
+    <img src="https://img.shields.io/github/last-commit/jpd61/README-generator" >
+ 
+    </a>
+</p>
+  
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-inquirer-red" >
+    <img src="https://img.shields.io/badge/-screencastify-lightgrey" />
+    <img src="https://img.shields.io/badge/-json-orange" />
+</p>
+   
+## Description
+  
+🔍 A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found [here](.dist/README.md)  
+  
+💻 Below is the gif showing the functionality of the application:
+  
+![WorldKaizen README Generator](./src/WorldKaizen-readme-generator.gif)
+  
+🎥 The full movie file showing functionality of the application can be found [here](./src/dewody-readme-generator-movie.webm)  
+  
+## User Story
+  
+```
+AS A developer
+I WANT a README generator
+SO THAT can quickly create a professional README for a new project 
+```
+  
+## Acceptance Criteria
+  
+``` 
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+```
+  
+## Table of Contents
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-** Unit 09 Node.js and ES6+ Homework: Developer Profile Generator Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command: node index.js The user will be prompted for a favorite color, which will be used as the background color for cards. The PDF will be populated with the following:
+## Installation
+💾   
+  
+`npm init`
+  
+`npm install inquirer`
+  
+## Usage
+💻   
+  
+Run the following command at th root of your project and answer the prompted questions:
+  
+`node index.js`
 
--Profile image User name Links to the following:
+## Contributing
+:octocat: [WorldKaizen](https://github.com/jpd61)
 
-User location via Google Maps User GitHub profile User blog
-
-User bio Number of public repositories Number of followers Number of GitHub stars Number of users following
-
-Following the common templates for user stories, we can frame this challenge as follows: AS A product manager
-
--I WANT a developer profile generator
-
-SO THAT I can easily prepare reports for stakeholders Refer to the design mockup.
-
-Business Context When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
-
-**Minimum Requirements
-
-Functional, deployed application.
-
-GitHub repository with a unique name and a README describing project.
-
-The application generates a PDF resume from the user provided GitHub profile.
-
-The generated resume includes a bio image from the user's GitHub profile.
-
-The generated resume includes the user's location and a link to their GitHub profile.
-
-The generated resume includes the number of: public repositories, followers, GitHub stars and following count.
-
-The background color of the generated PDF matches the color that the user provides.
-
-GIVEN the developer has a GitHub profile
-
-WHEN prompted for the developer's GitHub username and favorite color
-
-THEN a PDF profile is generated
+## Questions
+✉️ Contact me with any questions: [email](mailto:s.shane67@yahoo.com) , [GitHub](https://github.com/jpd61)<br />
