@@ -1,17 +1,15 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
-const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./utils/generateReadme")
-const writeFileAsync = util.promisify(fs.writeFile);
-
+const markdown = require("./utils/generatemarkdown");
+const path = require ('path');
 //Prompt the user questions to populate the README.md
 const   questions = [
     
         {
             type: "input",
             name: "projectTitle",
-            message: "What is the project title?",
+            message: "What is the project title?"
         },
         {
             type: "input",
@@ -21,7 +19,7 @@ const   questions = [
         {
             type: "input",
             name: "installation",
-            message: "Describe the installation process if any: ",
+            message: "Describe the installation process if any "
         },
         {
             type: "input",
@@ -72,18 +70,15 @@ const   questions = [
 ];
 //write function to write file
 function writeToFile(fileName,data) {
-    fs.writeFile(fileName,data,err => {
-        if(err){
-            throw err;
-        }
-    });
-
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // function to initialize program function to initialize program
 function init() {
-    prompt(questions).then(answers => {
+    inquirer.prompt(questions).then(answers => {
 
-        const response = generateMarkdown(answers);
-        console.log
-    };
-   
+        //const response = generateMarkdown(answers);
+        writeToFile('README.md', markdown({ ...answers }));
+    })
+}
+init();
